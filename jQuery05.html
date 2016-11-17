@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- jQuery CDN-->
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+
+    <script src = "js/jQuery05.js"></script>
+
+    <!-- 클래스 -->
+    <style>
+        .inStyle {
+            color : red;
+            background-color : yellow;
+        }
+
+        .outStyle {
+            color : black;
+            background-color : white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <input type = "button" value="실행" onclick="myFunc()"><br>
+
+    <ul>
+        <li onmouseenter="inStyle2()" onmouseleave="outStyle2()">서울</li>
+        <li>부산</li>
+        <li>대구</li>
+    </ul>
+</body>
+</html>

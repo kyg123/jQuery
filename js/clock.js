@@ -9,6 +9,7 @@ function startClock(){
     //div영역에 출력
     //html div영역을 javascript 객체로 들고온다.
     var div = document.getElementById("clockDiv");
+
     //div.innerHTML = "바뀜"; 객체로 변환시킨 것 = > document object(문서객체)
 
     //1초마다 반복적으로 현재 시간을 구하여 div에 출력
